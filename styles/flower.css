@@ -138,6 +138,43 @@
   border: none;
 }
 
+/* flower-plants-container */
+
+.flower-plants-container {
+  margin-top: 210px;
+  gap: 60px;
+}
+
+.flower-store {
+  flex: 1;
+  height: 550px;
+  width: 540px;
+  position: relative;
+}
+
+.flower-store-badeg {
+  height: 286px;
+  width: 286px;
+  position: absolute;
+  left: 530px;
+  transform: translate(-0%, -50%);
+}
+
+.flower-plants-title {
+  font-weight: bold;
+  font-size: 3.125rem;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-top: 38px;
+  padding-right: 300px;
+}
+.flower-plants-list-item {
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  padding-right: 300px;
+}
+
 /* responsive */
 @media screen and (max-width: 576px) {
   .nav-container {
