@@ -162,4 +162,12 @@
     padding: 0px;
     font-size: 0.9rem;
   }
+
+  /* card-responsive */
+  .plants-description {
+    padding: 0px;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
