@@ -62,6 +62,10 @@
 .banner-container {
   margin-top: 200px;
   align-items: center;
+  flex: 1;
+}
+.banner-text {
+  flex: 1;
 }
 
 .banner-title {
@@ -82,6 +86,56 @@
 }
 .banner-image {
   width: 100%;
+  flex: 1;
+}
+
+/*Our plants */
+.plants {
+  text-align: center;
+  margin-top: 120px;
+}
+.plants-title {
+  font-weight: bold;
+  font-size: 3.125rem;
+}
+.plants-description {
+  margin-bottom: 30px;
+  font-size: 1.37rem;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0 290px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card-image {
+  width: 100%;
+}
+
+.card-title {
+  margin-top: 30px;
+  font-size: 1.37rem;
+  font-weight: 500;
+  color: #111111;
+  margin-bottom: 20px;
+}
+
+.card-price {
+  font-weight: bold;
+  font-size: 1.37rem;
+  color: #111111;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #e95a08;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 10px 50px;
+  width: 100%;
+  border: none;
 }
 
 /* responsive */
