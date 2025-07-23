@@ -80,3 +80,32 @@
   padding-right: 40px;
   color: rgba(0, 0, 0, 0.5);
 }
+.banner-image {
+  width: 100%;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+  .nav-container {
+    gap: 20px;
+  }
+  .nav-item-container .nav-item .hide-on-mobile {
+    display: none;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    padding-right: 150px;
+  }
+  .banner-text {
+    margin-left: 15px;
+  }
+  .banner-description {
+    padding: 0px;
+    font-size: 0.9rem;
+  }
+}
