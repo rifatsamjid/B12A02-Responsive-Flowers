@@ -175,6 +175,79 @@
   padding-right: 300px;
 }
 
+/* lastest deals */
+.deals {
+  margin-top: 130px;
+  text-align: center;
+}
+
+.deals-title {
+  font-weight: bold;
+  font-size: 3.125rem;
+}
+.deals-description {
+  font-size: 1.375rem;
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0px 290px;
+}
+
+/* Latest Deals-images */
+.latest-container {
+  display: flex;
+  gap: 28px;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+.latest-container-item {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.latest-container .latest-container-item .plants-images {
+  flex: 1;
+}
+
+.latest-item {
+  position: relative;
+}
+.plants-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.plants-images {
+  width: 100%;
+  border-radius: 14px;
+}
+.plants-text-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+}
+.btn-shop {
+  background: none;
+  text-decoration: underline 2px solid white;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: none;
+}
+.right-text-title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+}
+.btn-right {
+  background: none;
+  text-decoration: underline 2px solid white;
+  color: white;
+  font-weight: 600;
+  font-size: 1.75rem;
+  border: none;
+}
+
 /* responsive */
 @media screen and (max-width: 576px) {
   .nav-container {
