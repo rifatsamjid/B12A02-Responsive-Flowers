@@ -13,10 +13,15 @@
   display: flex;
 }
 
+/* logo font */
 .font {
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-size: 3rem;
+}
+.footer-font {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
 }
 
 /* navbar styles */
@@ -220,10 +225,11 @@
 .plants-images {
   width: 100%;
   border-radius: 14px;
+  filter: brightness(60%);
 }
 .plants-text-title {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: white;
 }
 .btn-shop {
@@ -231,7 +237,7 @@
   text-decoration: underline 2px solid white;
   color: white;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   border: none;
 }
 .right-text-title {
@@ -250,18 +256,19 @@
 
 /* colorful-bunch */
 .colorful-bunch {
-  background-image: url("/assets/news-letter-bg.png");
+  background-image: url("../assets/news-letter-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
   width: 100%;
-  display: block;
   margin-top: 120px;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .colorful-bunch-container {
   text-align: center;
-  padding-top: 280px;
 }
 .colorful-bunch-title {
   font-weight: bold;
@@ -271,13 +278,17 @@
 .colorful-bunch-email {
   width: 600px;
   height: 30px;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 15px 20px;
+  border: none;
 }
 .colorful-bunch-btn {
   background-color: #e95a08;
   color: white;
   font-weight: 600;
   font-size: 1rem;
-  padding: 7px 50px;
+  padding: 21px 50px;
   border: none;
   position: absolute;
 }
@@ -285,11 +296,86 @@
   position: relative;
 }
 
+/* footer-section-styles */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 10px;
+}
+.footer-about .footer-logo {
+  text-decoration: none;
+}
+.footer-maintext {
+  color: #355e3b;
+}
+
+.footer-subtext {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444;
+}
+
+.footer-description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.375rem;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu .item-list {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.item-list .list-links {
+  text-decoration: none;
+  color: rgba(107, 114, 128, 1);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.footer-resources {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.resources-menu .resources-menu-item {
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.resources-menu-item .resources-menu-links {
+  text-decoration: none;
+  color: rgba(107, 114, 128, 1);
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: left;
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.footer-icon-images {
+  height: 30px;
+  width: 30px;
+}
+#twitter-icon {
+  width: 19;
+  height: 18;
+}
+
 /* responsive */
 @media screen and (max-width: 576px) {
   .nav-container {
     gap: 20px;
     align-items: center;
+  }
+  .navbar-logo {
+    padding-left: 20px;
   }
   .nav-item-container .nav-item .hide-on-mobile {
     display: none;
@@ -347,8 +433,57 @@
   /* latest deals */
   .deals-description {
     padding: 0px;
+    padding-left: 5px;
   }
   .latest-container {
     flex-direction: column;
+  }
+  .right-text-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .btn-right {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  /* colorful branch */
+  .colorful-bunch {
+    width: 100%;
+    height: 220px;
+    gap: 20px;
+    padding-left: 35px;
+  }
+  .colorful-bunch-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  .colorful-bunch-container {
+    margin-right: 90px;
+  }
+  .colorful-bunch-email {
+    width: 150px;
+  }
+  .colorful-bunch-btn {
+    padding: 21px 15px;
+  }
+  .btn-email-container {
+    padding-right: 100px;
+    margin-top: 10px;
+  }
+  /* footer */
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-about {
+    padding-left: 35px;
+  }
+  .footer-menu {
+    padding-left: 35px;
+    text-align: left;
+  }
+  .footer-resources,
+  .footer-icon {
+    padding-left: 35px;
   }
 }
