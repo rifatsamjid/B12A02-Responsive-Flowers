@@ -248,6 +248,43 @@
   border: none;
 }
 
+/* colorful-bunch */
+.colorful-bunch {
+  background-image: url("/assets/news-letter-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  display: block;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.colorful-bunch-container {
+  text-align: center;
+  padding-top: 280px;
+}
+.colorful-bunch-title {
+  font-weight: bold;
+  font-size: 3.125rem;
+  color: white;
+}
+.colorful-bunch-email {
+  width: 600px;
+  height: 30px;
+}
+.colorful-bunch-btn {
+  background-color: #e95a08;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 7px 50px;
+  border: none;
+  position: absolute;
+}
+.btn-email-container {
+  position: relative;
+}
+
 /* responsive */
 @media screen and (max-width: 576px) {
   .nav-container {
