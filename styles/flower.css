@@ -175,7 +175,7 @@
   padding-right: 300px;
 }
 
-/* lastest deals */
+/* latest deals */
 .deals {
   margin-top: 130px;
   text-align: center;
@@ -305,5 +305,13 @@
   .flower-plants-list .flower-plants-list-item {
     list-style: disc;
     list-style-position: inside;
+  }
+
+  /* latest deals */
+  .deals-description {
+    padding: 0px;
+  }
+  .latest-container {
+    flex-direction: column;
   }
 }
