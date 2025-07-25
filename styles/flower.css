@@ -410,7 +410,8 @@
   }
   .card-container {
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
   }
   /* flower-plants-container */
   .flower-plants-container {
@@ -425,9 +426,9 @@
     text-align: center;
   }
   .flower-store {
-    width: 100%;
+    width: 95%;
     height: 100%;
-    padding: 0px 25px;
+    margin-left: 13px;
   }
   .flower-store-badeg {
     display: none;
@@ -444,22 +445,25 @@
   }
   .latest-container {
     flex-direction: column;
+    margin-right: 30px;
   }
   .right-text-title {
     font-size: 1.2rem;
     font-weight: bold;
+  }
+  .plants-images {
+    width: 100%;
   }
   .btn-right {
     font-weight: 600;
     font-size: 1rem;
   }
 
-  /* colorful branch */
+  /* colorful-branch */
   .colorful-bunch {
     width: 100%;
-    height: 220px;
+    height: 250px;
     gap: 20px;
-    padding-left: 35px;
   }
   .colorful-bunch-title {
     font-weight: bold;
@@ -470,9 +474,11 @@
   }
   .colorful-bunch-email {
     width: 150px;
+    height: 70%;
+    margin-left: 20px;
   }
   .colorful-bunch-btn {
-    padding: 21px 15px;
+    padding: 14.1px 15px;
   }
   .btn-email-container {
     padding-right: 100px;
